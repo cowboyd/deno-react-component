@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "roboto";
+  src: url(/roboto.woff2) format("woff2");
+  font-weight: 100 700;
+  font-display: block;
+}
+
+::selection {
+  background: #6666ff;
+  color: white;
+}
+
+html,
+body {
+  background: #000;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "roboto";
+}
+
+body {
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 20vmin;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+main {
+  margin: 2em 1em;
+}
