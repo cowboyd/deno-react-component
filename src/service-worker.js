@@ -2,10 +2,7 @@ const CACHE_NAME = "ultra.v7";
 
 const CACHED_URLS = [
   "/style.css",
-  "/ultra.svg",
-  "/clouds-1.webp",
-  "/clouds-2.webp",
-  "/SG-Linear.woff2",
+  "/roboto.woff2",
 ];
 
 self.addEventListener("install", (event) => {
